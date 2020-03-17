@@ -5,7 +5,8 @@ FROM python:3.7
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
-# Set work directory
+
+# Set work dir
 WORKDIR /code
 
 # Install dependencies
